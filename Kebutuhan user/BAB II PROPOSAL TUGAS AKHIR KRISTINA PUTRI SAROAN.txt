@@ -1,0 +1,243 @@
+﻿PROPOSAL
+TUGAS AKHIR
+
+
+PERANCANGAN DAN IMPLEMENTASI SISTEM PENDAFTARAN KURSUS PERNIKAHAN DENGAN FITUR PEMBAYARAN QRIS PADA BIARA LORESA SCJ SP3
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+KRISTINA PUTRI SAROAN
+2251 2023
+
+
+
+
+PROGRAM STUDI TEKNOLOGI REKAYASA INTERNET
+POLITEKNIK AMAMAPARE TIMIKA
+2026
+        
+BAB II 
+TINJAUAN PUSTAKA
+1. PENELITIAN TERDAHULU
+Studi terdahulu berperan penting dalam memperkuat landasan teori serta memetakan posisi penelitian terkait pengembangan sistem pendaftaran Kursus Persiapan Pernikahan (KPP) berbasis web dengan integrasi fitur pembayaran QRIS. Walaupun belum ditemukan penelitian yang secara spesifik menggabungkan kedua aspek tersebut, sejumlah penelitian relevan telah membahas sistem pendaftaran berbasis web dan implementasi QRIS dalam pembayaran digital. Mulumbot, Laoh, Pungus, Sondakh, dan Rotikan (2023) dalam artikel berjudul “Sistem Informasi Pendaftaran Peserta Didik Berbasis Web (SIPD-WEB) pada SLA Tompaso”. Membahas pengembangan sistem pendaftaran peserta didik berbasis web untuk meningkatkan efektivitas layanan administrasi. Penelitian tersebut menunjukkan bahwa sistem pendaftaran berbasis web mampu membantu proses registrasi menjadi lebih terstruktur, memudahkan pengelolaan data peserta, serta meningkatkan akses layanan bagi pengguna dibandingkan proses manual. Persamaannya dengan penelitian ini terletak pada penggunaan sistem pendaftaran berbasis web sebagai solusi atas permasalahan administrasi. Perbedaannya, penelitian tersebut berfokus pada pendaftaran peserta didik di institusi pendidikan, sedangkan penelitian ini diarahkan pada sistem pendaftaran Kursus Persiapan Pernikahan (KPP) yang dilengkapi dengan integrasi pembayaran digital menggunakan QRIS.
+Penelitian mengenai sistem pendaftaran berbasis web menunjukkan bahwa teknologi ini memberikan solusi signifikan dalam digitalisasi administrasi, khususnya bagi institusi yang sebelumnya bergantung pada metode manual yang memerlukan waktu lama dan rentan terhadap kesalahan. Wandri (2024), dalam jurnal berjudul "Pengembangan Sistem Pendaftaran Siswa Baru Berbasis Web di SMK YKWI Pekanbaru," mengembangkan sistem pendaftaran berbasis web yang terbukti mempercepat proses pendaftaran siswa baru secara daring serta meningkatkan akurasi data dibandingkan metode konvensional yang menggunakan formulir fisik. Hasil penelitian tersebut menunjukkan bahwa sistem berbasis web dapat mengurangi kesalahan dalam pengisian formulir dan memudahkan pengelolaan data peserta secara real-time.Persamaan antara penelitian Wandri dan penelitian ini terletak pada penggunaan sistem pendaftaran berbasis web untuk mempermudah dan mempercepat proses administratif serta meningkatkan akurasi data. Perbedaan utama terletak pada sektor yang menjadi fokus; penelitian Wandri berfokus pada pendaftaran siswa baru di SMK, sedangkan penelitian ini diarahkan pada pengembangan sistem pendaftaran Kursus Persiapan Pernikahan (KPP) berbasis web yang juga mengintegrasikan fitur pembayaran digital QRIS. Integrasi ini memberikan dimensi tambahan terkait transaksi yang belum terdapat pada penelitian sebelumnya.
+Sistem pendaftaran berbasis web merupakan solusi signifikan dalam digitalisasi administrasi karena dapat mengurangi ketergantungan pada metode manual yang memakan waktu dan rentan terhadap kesalahan. Sukriadi, Irma, dan Heril Ansar (2023), dalam jurnal berjudul “Sistem Informasi Pendaftaran Peserta Didik Baru Berbasis Web di SMP Satap Negeri Tengapadange,” mengembangkan sistem pendaftaran berbasis web yang bertujuan untuk meningkatkan efisiensi proses pendaftaran siswa baru. Hasil penelitian menunjukkan bahwa sistem tersebut mempercepat proses pendaftaran dan menurunkan tingkat kesalahan input data dibandingkan dengan sistem manual. Persamaan antara penelitian Sukriadi et al. (2023) dan penelitian ini terletak pada penggunaan sistem pendaftaran berbasis web untuk meningkatkan efisiensi administrasi dan akurasi data. Namun, penelitian ini berbeda dalam ruang lingkup dan pengembangannya karena difokuskan pada sistem pendaftaran Kursus Persiapan Pernikahan (KPP) berbasis web yang terintegrasi dengan pembayaran digital melalui QRIS. Integrasi ini memperluas fungsi sistem tidak hanya pada proses pendaftaran, tetapi juga pada pengelolaan transaksi pembayaran secara aman dan praktis. Selain itu, metodologi pengembangan sistem merupakan faktor krusial dalam menciptakan sistem yang efektif dan adaptif terhadap kebutuhan pengguna. Pemilihan metode yang tepat akan menentukan fleksibilitas sistem dalam menghadapi perubahan kebutuhan serta kualitas hasil akhir sistem. Beberapa penelitian juga mengkaji penerapan metode Agile sebagai pendekatan yang dapat meningkatkan kualitas sistem berbasis web secara berkelanjutan.
+        Purnama dan Safitri (2025), dalam jurnal berjudul “Design and Development of a Web‑Based Information System Using Agile Methodology for PKBM Satria”, menjelaskan proses desain dan pengembangan sistem informasi berbasis web dengan penerapan metode Agile. Penelitian tersebut menunjukkan bahwa metode Agile diterapkan secara iteratif, di mana pengembangan sistem dilakukan melalui serangkaian sprint yang memungkinkan fitur diuji, dievaluasi, dan disesuaikan berdasarkan umpan balik pengguna secara berkala. Hasil penelitian ini menunjukkan bahwa sistem yang dikembangkan menjadi lebih fleksibel dan responsif terhadap perubahan kebutuhan dibandingkan dengan pendekatan tradisional. Persamaan antara penelitian Purnama dan Safitri dengan penelitian ini terletak pada penggunaan metodologi Agile untuk membangun sistem berbasis web secara adaptif dan berfokus pada kebutuhan pengguna. Perbedaannya terletak pada konteks aplikasi; penelitian Purnama dan Safitri berfokus pada sistem informasi di lingkungan PKBM Satria, sedangkan penelitian ini menerapkan Agile untuk mengembangkan sistem pendaftaran Kursus Persiapan Pernikahan (KPP) yang juga dilengkapi dengan integrasi pembayaran digital menggunakan QRIS. Dengan demikian, sistem yang dikembangkan tidak hanya mencakup aspek fungsional pendaftaran, tetapi juga transaksi pembayaran.
+        Pertiwi et al. (2023), dalam jurnal berjudul “Perancangan dan Implementasi Sistem Informasi Absensi Berbasis Web Menggunakan Metode Agile Software Development”, membahas pengembangan sistem informasi absensi berbasis web dengan pendekatan Agile untuk meningkatkan efisiensi pengelolaan data. Hasil penelitian menunjukkan bahwa sistem yang dikembangkan dapat mempercepat pengolahan data, meningkatkan akurasi pencatatan, dan meminimalisir kesalahan dibandingkan sistem manual. Persamaan antara penelitian tersebut dan penelitian ini terletak pada penggunaan metode Agile dalam pengembangan sistem berbasis web untuk meningkatkan efisiensi dan akurasi data. Namun, penelitian Pertiwi et al. berfokus pada sistem absensi, sedangkan penelitian ini mengembangkan sistem pendaftaran Kursus Persiapan Pernikahan (KPP) berbasis web yang dilengkapi dengan integrasi pembayaran digital QRIS.
+        Akwilla dan Jollyta (2024), dalam jurnal berjudul “Implementasi Agile Development Berbasis Web pada Sistem Inventory”, menjelaskan bahwa penggunaan metode Agile dalam pengembangan sistem berbasis web mampu meningkatkan fleksibilitas sistem serta mempermudah penyesuaian terhadap kebutuhan pengguna. Hasil penelitian menunjukkan bahwa sistem yang dikembangkan dapat meningkatkan efisiensi operasional serta pengelolaan data secara lebih terstruktur.Persamaan penelitian ini dengan penelitian yang dilakukan terletak pada penggunaan metode Agile dalam pengembangan sistem berbasis web yang adaptif. Perbedaannya, penelitian ini tidak mencakup integrasi sistem pembayaran digital, sedangkan penelitian ini mengintegrasikan QRIS sebagai bagian dari sistem pendaftaran yang dikembangkan.
+        Muchtar et al. (2024), dalam jurnal internasional berjudul “Quick Response Code Indonesian Standard (QRIS) E-Payment Adoption”, meneliti faktor-faktor yang mempengaruhi adopsi QRIS sebagai sistem pembayaran digital di Indonesia. Penelitian ini menggunakan pendekatan kuantitatif dengan metode SEM-PLS terhadap 195 responden. Hasil penelitian menunjukkan bahwa faktor sosial dan kondisi pendukung memiliki pengaruh signifikan terhadap minat penggunaan QRIS, serta mampu mendorong peralihan dari transaksi tunai ke non-tunai.Persamaan penelitian ini dengan penelitian yang dilakukan terletak pada penggunaan QRIS sebagai metode pembayaran digital untuk meningkatkan efisiensi transaksi. Perbedaannya, penelitian Muchtar et al. berfokus pada faktor adopsi pengguna terhadap QRIS, sedangkan penelitian ini mengintegrasikan QRIS secara langsung dalam sistem pendaftaran berbasis web pada layanan Kursus Persiapan Pernikahan (KPP), sehingga berfungsi sebagai bagian dari sistem administrasi terintegrasi.
+        Untuk mempermudah keterbacaan hasil tinjauan penelitian terdahulu diatas,maka disajikan ringkasan hasil tinjauan ke dalam tabel sebagai berikut:
+
+
+
+
+
+
+
+Penelitian 
+Tahun 
+	Judul & Metodologi
+	Temuan
+	keterbatasan
+	Mulumbot et al. (2023)
+	Sistem Informasi Pendaftaran Peserta Didik Berbasis Web (SIPD-WEB)pada SLA Tamposo
+Metode: Pengembangan sistem berbasis web
+	Sistem pendaftaran berbasis web meningkatkan efisiensi, mempermudah pengelolaan data, dan meningkatkan akses layanan dibandingkan dengan sistem manual.
+	Berfokus pada pendaftaran peserta didik di institusi pendidikan, sementara penelitian ini berfokus pada pendaftaran KPP dengan QRIS.
+	Wandri (2024)
+	Pengembangan sistem Pendaftaran Siswa Baru Berbasis Web di SMK YKWI Pekanbaru
+Metode: Pengembangan sistem berbasis web
+	Sistem berbasis web meningkatkan akurasi data, mempercepat pendaftaran, dan mengurangi kesalahan pengisian formulir.
+	Fokus pada pendaftaran siswa baru di SMK, sedangkan penelitian ini mengembangkan sistem pendaftaran KPP berbasis web dengan QRIS.
+	Sukriadi et al. (2023)
+	Sistem Informasi Pendaftaran Peserta Didik Baru Berbasis Web di SMP Satap Negeri Tengapadange
+Metode:Pengembangan sistem berbasis web
+	Sistem pendaftaran berbasis web mempercepat proses pendaftaran dan mengurangi kesalahan input data.
+	Sistem pendaftaran berbasis web mempercepat proses pendaftaran dan mengurangi kesalahan input data.
+	 Purnama & Safitri (2025)
+	Design and Development of a Web‑Based Information System Using Agile Methodology for PKBM Satria
+Metode: Agile (iteratif, sprint)
+	 Penggunaan metode Agile meningkatkan fleksibilitas sistem, memungkinkan pengembangan yang lebih responsif terhadap kebutuhan pengguna.
+	Fokus pada sistem informasi di PKBM Satria, sementara penelitian ini berfokus pada pendaftaran KPP dengan QRIS.
+	Pertiwi et al. (2023)
+	"Perancangan dan Implementasi Sistem Informasi Absensi Berbasis Web Menggunakan Metode Agile Software Development"
+Metode: Agile
+	 Sistem berbasis web mempercepat pengolahan data, meningkatkan akurasi, dan mengurangi kesalahan pencatatan absensi.
+	 Fokus pada sistem absensi, sementara penelitian ini mengembangkan sistem pendaftaran KPP berbasis web dengan QRIS.
+	 Akwilla & Jollyta (2024)
+	"Implementasi Agile Development Berbasis Web pada Sistem Inventory"
+Metode: Agile
+	Penggunaan Agile meningkatkan fleksibilitas dan efisiensi operasional dalam pengelolaan data.
+	Tidak mengintegrasikan sistem pembayaran digital, sementara penelitian ini mengintegrasikan QRIS dalam pendaftaran KPP berbasis web.
+	Muchtar et al. (2024)
+	"Quick Response Code Indonesian Standard (QRIS) E-Payment Adoption"
+Metode: SEM-PLS
+	Faktor sosial dan kondisi pendukung berpengaruh signifikan terhadap penggunaan QRIS untuk transaksi non-tunai.
+	Fokus pada adopsi QRIS, sementara penelitian ini mengintegrasikan QRIS dalam sistem pendaftaran berbasis web untuk KPP, sebagai bagian dari sistem administrasi terintegrasi.
+	
+
+Tinjauan terhadap penelitian terdahulu menunjukkan adanya kecenderungan pengembangan sistem berbasis web untuk meningkatkan efisiensi administrasi, akurasi data, dan kemudahan akses layanan. Beberapa studi menyoroti pentingnya penerapan metode Agile agar proses pengembangan sistem menjadi lebih fleksibel dan responsif terhadap kebutuhan pengguna. Selain itu, penelitian lain menunjukkan bahwa QRIS berperan sebagai alternatif pembayaran digital yang efisien serta mendukung transformasi transaksi dari tunai ke non-tunai. Namun, studi-studi tersebut umumnya membahas aspek-aspek tersebut secara terpisah dan belum mengintegrasikannya secara komprehensif dalam layanan Kursus Persiapan Pernikahan. Dengan demikian, celah riset ini menjadi dasar untuk merancang dan mengimplementasikan sistem pendaftaran Kursus Persiapan Pernikahan berbasis web yang terintegrasi dengan pembayaran QRIS, sehingga dapat mendukung proses administrasi yang lebih efektif, praktis, dan modern.
+
+
+ B. LANDASAN TEORI
+1. Bahasa Pemrograman PHP         
+PHP berperan sebagai bahasa pemrograman utama pada sisi server untuk memproses logika bisnis, validasi data, autentikasi, dan integrasi layanan eksternal dalam aplikasi web. Pemilihan bahasa backend secara teoritis harus mempertimbangkan kematangan ekosistem, kecepatan pengembangan, dan kemudahan pemeliharaan pada sistem yang berkembang secara dinamis. Dalam pengembangan sistem berbasis web, lapisan server menjalankan logika bisnis yang terpisah dari struktur antarmuka, sehingga perubahan fitur dapat dilakukan tanpa mengorbankan konsistensi arsitektur. Oleh karena itu, penggunaan PHP pada aplikasi ini dinilai relevan sebagai fondasi yang stabil untuk pengembangan fitur administrasi dan layanan transaksi digital.
+  
+
+
+
+2. Laravel Framework
+        Laravel berfungsi sebagai framework utama yang menyediakan struktur kerja siap pakai untuk routing, middleware, ORM, keamanan, dan manajemen konfigurasi aplikasi. Dari sudut pandang rekayasa perangkat lunak, framework ini mempercepat siklus pengembangan dengan menyediakan komponen yang dapat digunakan kembali serta konvensi arsitektur yang mengurangi kompleksitas penulisan kode secara manual. Penelitian mengenai pengembangan website dengan arsitektur MVC pada Laravel menunjukkan bahwa framework ini mendukung pengelolaan modul dan memudahkan pengembangan lanjutan pada sistem berbasis layanan (Novia et al., 2022). Dengan demikian, Laravel layak dijadikan fondasi teknologi untuk aplikasi layanan kursus pernikahan yang memiliki banyak modul dan alur proses yang kompleks.
+  
+
+
+
+   3. Arsitektur Model-View-Controller (MVC)
+        Laravel menerapkan pola Model-View-Controller (MVC) untuk memisahkan tanggung jawab antara logika data (Model), logika proses (Controller), dan tampilan antarmuka (View). Pemisahan ini sangat penting dalam kerangka teori karena meningkatkan pemeliharaan, pengujian, dan skalabilitas aplikasi seiring bertambahnya fitur dan pengguna. Bukti empiris dari konteks nasional menunjukkan bahwa pendekatan MVC pada Laravel mendukung perancangan sistem penerimaan peserta didik berbasis web yang terstruktur (Nugroho et al., 2022). Dengan demikian, penerapan MVC pada aplikasi ini memenuhi kebutuhan pengembangan berkelanjutan jangka panjang tanpa mengorbankan konsistensi kode.
+
+  
+
+
+
+
+
+      4. Blade Template Engine
+Secara teoritis, template engine seperti Blade memisahkan kode tampilan dari logika bisnis, sehingga antarmuka menjadi lebih mudah untuk dirawat dan diuji. Blade pada Laravel menyediakan sintaks ringkas, pewarisan layout, komponen, serta direktif kondisional yang mendukung pembangunan halaman publik, dasbor peserta, dan panel admin secara konsisten. Dalam aplikasi ini, Blade digunakan untuk merender formulir pendaftaran multi-langkah, daftar dokumen, status pendaftaran, serta antarmuka pengelolaan periode dan materi. Pendekatan ini sejalan dengan prinsip pemisahan peran pada arsitektur Model-View-Controller (MVC), dimana controller menyiapkan data dan view Blade menampilkan data tanpa menyertakan logika bisnis yang kompleks. Studi empiris mengenai pengembangan antarmuka berbasis Laravel dengan Blade templating engine pada sistem informasi kampus mendukung argumen bahwa lapisan tampilan yang terstruktur meningkatkan konsistensi antarmuka (Oktiriani et al., 2022). Dengan demikian, Blade memperkuat posisi Laravel sebagai kerangka kerja dengan lapisan presentasi yang terstruktur.
+  
+
+
+      5. Eloquent ORM 
+Laravel memanfaatkan Eloquent ORM untuk menghubungkan model objek aplikasi dengan tabel relasional pada basis data tanpa memerlukan penulisan query SQL secara manual. Secara teoritis, penggunaan ORM dapat meningkatkan produktivitas pengembang karena relasi data, validasi model, dan pengelolaan operasi CRUD dapat dilakukan secara konsisten melalui abstraksi objek. Literatur terbaru menunjukkan bahwa pendekatan ORM dalam operasi CRUD berkontribusi terhadap keterbacaan kode dan konsistensi model data pada aplikasi berbasis basis data relasional (Bonteanu & Tudose, 2024). Oleh karena itu, Eloquent sangat relevan untuk modul pendaftaran, dokumen, pembayaran, kehadiran, dan sertifikat yang memiliki relasi data kompleks.
+  
+
+      6. Basis Data Relasional (MySQL)        
+Teknologi basis data relasional digunakan untuk menyimpan data terstruktur, seperti data akun, pendaftaran, periode, materi, pembayaran, dan histori notifikasi, secara konsisten. Integritas data merupakan aspek teoretis yang krusial karena kualitas layanan digital sangat dipengaruhi oleh akurasi, keterlacakan, dan keandalan informasi yang diterima oleh pengguna. Studi mengenai layanan publik digital menunjukkan bahwa penyaluran layanan secara elektronik berdampak pada aspek sosial-ekonomi dan efisiensi sumber daya, yang juga sangat bergantung pada tingkat kematangan digital penyelenggara (Ha, 2022). Dengan demikian, perancangan relasi kunci, constraint, dan migrasi skema basis data menjadi elemen fundamental dalam pengembangan teknologi aplikasi ini.
+  
+
+
+      7. JavaScript, Vite, dan Tailwind CSS 
+Pada sisi frontend, JavaScript digunakan untuk menciptakan interaksi dinamis, sementara Vite berperan dalam proses bundling aset guna meningkatkan kecepatan dan efisiensi pemuatan halaman. Tailwind CSS digunakan sebagai utility-first CSS framework untuk mempercepat pengembangan antarmuka responsif tanpa perlu menulis stylesheet secara berulang dari awal. Studi mengenai perilaku konsumen terhadap adopsi pembayaran QR menunjukkan bahwa manfaat yang dirasakan, kemudahan, norma subjektif, dan kenyamanan merupakan faktor yang membentuk sikap terhadap layanan digital berbasis QR (Yamin & Abdalatif, 2024). Oleh karena itu, pemilihan teknologi frontend ini mendukung tujuan aplikasi dalam menyediakan antarmuka yang cepat, jelas, dan mudah digunakan di dalam ekosistem layanan yang terintegrasi.
+  
+
+
+      8. Middleware dan RBAC
+Middleware Laravel digunakan untuk memfilter permintaan berdasarkan autentikasi dan peran pengguna, seperti user, admin, dan super admin. Teori kontrol akses menegaskan bahwa pemisahan hak akses berbasis peran dapat menurunkan risiko penyalahgunaan fitur dan kebocoran data akibat pemberian hak istimewa yang tidak tepat. Studi RBAC berskala besar menunjukkan bahwa model peran yang dirancang dengan baik meningkatkan efisiensi administrasi keamanan serta mengurangi kesalahan dalam penetapan hak akses (Sahani et al., 2022). Oleh karena itu, penerapan middleware role pada aplikasi ini merupakan implementasi langsung dari prinsip security by design pada tingkat aplikasi.
+   
+
+
+      9. API Midtrans
+Integrasi API pembayaran digunakan untuk memastikan bahwa transaksi pendaftaran dapat diproses secara otomatis, tervalidasi, dan memiliki status pembayaran yang dapat dipantau secara real-time. Penerimaan pembayaran mobile berbasis QR dipengaruhi oleh persepsi manfaat, kemudahan, kepercayaan, serta risiko yang dirasakan oleh pengguna (Turker et al., 2022). Studi lain menegaskan bahwa kepercayaan dan risiko yang dirasakan mempengaruhi niat untuk menggunakan pembayaran mobile (Alrawad et al., 2023), sedangkan keamanan yang dirasakan, kepercayaan, dan kualitas informasi berperan dalam membentuk niat perilaku pengguna (Almaiah et al., 2022). Oleh karena itu, teknologi payment gateway perlu didukung oleh callback yang andal, pencatatan transaksi yang rinci, serta transparansi status bagi pengguna.
+  
+      10. Notifikasi Email 
+Laravel menyediakan mekanisme notifikasi dan mailer yang digunakan untuk mengirim pembaruan status dokumen, jadwal, pembayaran, dan kelulusan kepada peserta. Berdasarkan kerangka teori layanan digital, komunikasi sistem yang tepat waktu meningkatkan kualitas layanan karena memberikan kepastian proses pada setiap tahapan layanan. Studi mengenai pembayaran mobile berbasis QR menunjukkan bahwa kualitas informasi, kualitas sistem, dan kecepatan transaksi berpengaruh terhadap kenyamanan serta kepercayaan pengguna (Eren, 2022). Oleh karena itu, modul notifikasi merupakan komponen esensial dalam menjaga kualitas interaksi layanan aplikasi, bukan sekadar fitur tambahan.
+  
+
+
+
+      11. Autentikasi, Sesi, dan Perlindungan CSRF
+Aplikasi berbasis sesi mengandalkan identitas pengguna yang tersimpan di sisi server setelah login, sehingga setiap permintaan berikutnya dapat dikaitkan dengan konteks keamanan yang sama. Secara teoritis, perlindungan terhadap pemalsuan permintaan lintas situs (Cross-Site Request Forgery) memerlukan token yang disisipkan pada formulir dan divalidasi oleh server. Literatur internasional menunjukkan bahwa validasi token acak (nonce) secara efektif mengurangi risiko CSRF pada aplikasi web (Ele, 2024). Dalam implementasinya, autentikasi membedakan antara peserta, admin, dan super admin. Fitur registrasi admin pada subdomain menggunakan alur verifikasi email untuk memastikan keabsahan akun penyelenggara sebelum mengakses data sensitif. Kombinasi autentikasi, sesi, dan CSRF membentuk lapisan kontrol akses yang konsisten dengan middleware RBAC.
+  
+
+
+
+      12. Axios dan Permintaan HTTP pada Sisi Klien
+Axios merupakan klien HTTP berbasis Promise yang digunakan pada frontend untuk berkomunikasi dengan endpoint aplikasi secara asinkron, seperti memeriksa status pembayaran atau menjaga sesi tanpa memuat ulang seluruh halaman. Secara teoritis, pola asynchronous request dapat mengurangi pemblokiran antarmuka dan meningkatkan responsivitas dibandingkan dengan navigasi penuh secara tradisional. Penelitian perbandingan performa RESTful API antara Express.js dan Laravel menunjukkan bahwa pola permintaan HTTP melalui kerangka server memiliki profil waktu tanggap yang berbeda dan perlu dipertimbangkan dalam perancangan interaksi klien–server (Hadinata & Stianingsih, 2024). Dalam aplikasi, pola ini mendukung pengalaman pengguna yang lebih mulus pada alur yang memerlukan umpan balik cepat dari server setelah aksi pembayaran atau pembaruan status. Axios melengkapi fungsi JavaScript murni dengan menyediakan abstraksi permintaan yang terstandarisasi.
+  
+
+      13. Manajemen Penyimpanan Berkas dan Unggahan Dokumen
+Unggahan dokumen pendaftaran, seperti gambar atau PDF, materi kursus, dan berkas sertifikat memerlukan penerapan teori manajemen penyimpanan, termasuk validasi tipe MIME dan ukuran, pembatasan akses unduhan, serta penempatan berkas pada lokasi yang terpisah dari kode aplikasi. Pemisahan antara konten statis dan data transaksional secara konseptual dapat mengurangi risiko eksekusi berkas berbahaya dan memudahkan proses pencadangan. Survei internasional yang membandingkan parameter keamanan aplikasi web berbasis kerentanan OWASP menegaskan bahwa celah pada jalur unggah dan validasi input merupakan risiko yang harus diaudit secara sistematis (Shahid et al., 2022). Aplikasi ini menerapkan pembatasan format dan ukuran pada formulir sesuai dengan praktik keamanan web yang dijelaskan pada subbab 11.
+  
+
+
+
+      14.  Chart.js 
+Chart.js adalah pustaka JavaScript sisi klien yang digunakan untuk menggambar grafik statistik pada elemen canvas HTML5, berdasarkan data yang disediakan server melalui Blade. Dalam dasbor administrasi, visualisasi tren pendaftaran, pembayaran, atau distribusi status peserta memudahkan pengambilan keputusan operasional tanpa perlu membaca tabel mentah secara manual. Teori presentasi informasi menyatakan bahwa encoding visual yang tepat, seperti perbandingan kategori melalui diagram batang, mempercepat interpretasi pola dibandingkan hanya menggunakan teks atau angka terpisah. Selain itu, karena pustaka ini dimuat melalui CDN resmi dengan versi tetap, pemeliharaan dependensi frontend tetap terkendali dan ukuran bundel utama Vite tidak mengalami peningkatan signifikan.
+  
+
+
+
+      15. Pustaka Dompdf
+Dompdf merupakan pustaka PHP yang mengubah dokumen HTML dan CSS menjadi berkas PDF pada sisi server, sehingga laporan atau sertifikat dapat dihasilkan dari templat Blade yang sama dengan tampilan web namun diarsipkan dalam format yang sulit diubah sembarangan. Integrasi paket barryvdh laravel-dompdf membungkus Dompdf sebagai layanan Laravel sehingga pemanggilan penjanaan PDF konsisten dengan injeksi dependensi dan konfigurasi aplikasi. Secara teoritis, penjanaan PDF mendukung distribusi resmi dokumen kelulusan dan ringkasan administratif tanpa bergantung pada perangkat lunak pengolah kata di sisi klien. Penggunaan PDF tetap harus dibatasi dengan kebijakan akses dan penyimpanan yang selaras dengan subbab manajemen unggahan agar tidak menimbulkan risiko penyalahgunaan templat.
+  
+      16. Metode Pengembangan Agile Scrum
+Penerapan Scrum yang konsisten berkontribusi terhadap peningkatan kualitas perangkat lunak melalui kolaborasi, transparansi, inspeksi, dan adaptasi, meskipun manfaatnya tetap bergantung pada konsistensi praktik dan konteks tim (Alami & Krancher, 2022). Penyesuaian ini menegaskan bahwa landasan metode perlu dilengkapi dengan bukti empiris nasional selain temuan internasional. Sebagai contoh, Rahutomo et al. (2022) melaporkan bahwa kerangka Agile Scrum memungkinkan penyelesaian aplikasi berskala besar dalam batas waktu ketat melalui pembagian peran Scrum Master, pengembang, serta penguji atau dokumentator. Dengan demikian, landasan metode Scrum pada bab ini sejalan dengan pendekatan pengembangan sistem informasi berbasis bukti dan kebutuhan institusi, bukan sekadar konvensi tanpa rujukan empiris, sebagaimana semangat perancangan dan implementasi pada lokus Biara Loresa SCJ SP3 yang telah diuraikan pada subbab sebelumnya.
+  
+
+C. KERANGKA BERPIKIR
+Alur penalaran dalam penelitian ini didasarkan pada Gambar Kerangka Berpikir, yang secara visual merangkum bagaimana permasalahan latar belakang, seperti administrasi pendaftaran kursus pernikahan yang masih bersifat manual, verifikasi dokumen yang terpisah, serta pencatatan pembayaran yang belum terintegrasi dengan status peserta di Biara Loresa SCJ SPJ SP3, mendorong perancangan dan implementasi sistem informasi berbasis web. Sistem ini memusatkan data pendaftaran, pengelolaan dokumen, pembayaran QRIS melalui Midtrans dengan konfirmasi callback, serta pengelolaan operasional kursus (periode, materi, kehadiran, dan sertifikat) dalam satu kesinambungan data. Dengan demikian, logika penelitian dari identifikasi masalah, arah solusi, hingga bentuk aplikasi yang dihasilkan dapat diikuti secara ringkas dan konsisten.
+  
+
+
+
+________________
+
+
+BAB III
+   METODOLOGI PENELITIAN
+A. WAKTU DAN TEMPAT PENELITIAN
+Bagian ini secara khusus membahas perencanaan waktu dan lokasi pelaksanaan penelitian. Penjelasan rinci mengenai jadwal pelaksanaan penelitian juga disampaikan.
+      1. Waktu Penelitian 
+Penelitian ini dilaksanakan selama dua bulan, dari Maret hingga April 2026, dengan jadwal terstruktur untuk memastikan efektivitas proses. Observasi langsung ke lokasi penelitian dilakukan pada awal Maret untuk memahami kondisi lapangan, alur kerja, dan permasalahan yang ada. Data dikumpulkan melalui wawancara dengan narasumber berkompeten guna memperoleh informasi yang relevan dan mendalam, kemudian dianalisis sebagai dasar perancangan dan pembangunan website. Pada April, kegiatan difokuskan pada pengembangan dan penyempurnaan website, serta penyusunan proposal dan laporan penelitian secara sistematis agar seluruh tahapan terdokumentasi dan hasil penelitian dapat dipertanggungjawabkan secara ilmiah.
+  
+
+
+
+
+
+
+
+      2. Tempat Penelitian 
+Tempat penelitian ini dilaksanakan di Biara Loresa SCJ sebagai lokasi utama layanan kursus persiapan pernikahan sekaligus lingkungan implementasi sistem yang dikembangkan. Pemilihan lokasi tersebut didasarkan pada kebutuhan digitalisasi proses layanan yang sebelumnya masih banyak dilakukan secara manual, khususnya pada alur pendaftaran peserta, unggah dan verifikasi dokumen, pembayaran berbasis QRIS Midtrans, serta penyampaian jadwal dan materi kursus. Pengumpulan data dilakukan langsung pada unit pengelola layanan melalui observasi proses kerja dan wawancara dengan pihak yang terlibat agar kebutuhan sistem benar-benar mencerminkan kondisi operasional di lapangan. Dengan karakteristik tersebut, Biara Loresa SCJ dinilai relevan dan representatif sebagai tempat penelitian karena menyediakan konteks nyata untuk pengujian fitur aplikasi secara end-to-end, mulai dari sisi peserta, admin, hingga super admin.
+                        B. Jenis dan Pendekatan Penelitian 
+Penelitian ini menggunakan pendekatan Research and Development (R&D) untuk menghasilkan sistem informasi berbasis web yang mendukung layanan kursus persiapan pernikahan di Biara Loresa SCJ. Penelitian ini berfokus pada pembangunan prototipe perangkat lunak yang mengatasi permasalahan administratif dan pastoral yang telah diidentifikasi, serta mengevaluasi kelayakan fungsionalnya melalui pengujian sistematis, bukan melalui pengujian hipotesis statistik pada populasi yang luas.
+Pendekatan ini relevan karena objek penelitian berupa perangkat lunak yang dikembangkan melalui tahapan analisis kebutuhan, perancangan, implementasi, dan pengujian. Produk akhirnya adalah sistem terintegrasi yang mencakup modul pendaftaran, pengelolaan dokumen, pembayaran (misalnya melalui Midtrans atau QRIS), serta dashboard yang disesuaikan untuk super administrator, administrator, dan peserta.
+                              C. Teknik Pengumpulan Data 
+Subbab ini membahas teknik pengumpulan data yang digunakan untuk memperoleh informasi kebutuhan sistem secara terstruktur dan sesuai dengan kondisi lapangan. Teknik yang diterapkan meliputi observasi, wawancara, dan studi dokumentasi sebagai dasar dalam perancangan dan pengembangan aplikasi layanan kursus persiapan pernikahan.
+      1. Observasi
+Metode ini memberikan peneliti gambaran nyata tentang alur layanan kursus persiapan pernikahan di Biara Loresa SCJ melalui pengamatan langsung pada proses pendaftaran, verifikasi dokumen, pembayaran, dan penyampaian materi. Selain itu, metode ini membantu mengidentifikasi masalah operasional secara faktual sehingga kebutuhan sistem dapat dirumuskan berdasarkan kondisi di lapangan.
+      2. Wawancara
+Metode ini memungkinkan peneliti menggali informasi mendalam dari admin atau pengelola layanan mengenai kendala, kebutuhan, dan harapan terhadap aplikasi yang dikembangkan. Dengan demikian, kebutuhan fungsional dan nonfungsional dapat dirumuskan lebih akurat karena didasarkan pada pengalaman langsung pengguna.
+      3. Studi Dokumentasi
+Metode ini membantu peneliti mengumpulkan data pendukung dari dokumen resmi, seperti formulir pendaftaran, persyaratan administrasi, dan arsip layanan yang relevan. Selain itu, metode ini memvalidasi kesesuaian rancangan sistem dengan prosedur yang berlaku agar struktur data, alur proses, dan aturan validasi pada aplikasi tetap konsisten.
+                        D. Metode Pengembangan Sistem
+Pengembangan sistem informasi kursus persiapan pernikahan di Biara Loresa SCJ menggunakan metode Agile dengan kerangka kerja Scrum untuk mengelola perubahan kebutuhan, ketergantungan fitur, dan peningkatan kualitas secara bertahap. Penelitian ini membahas alasan pemilihan Scrum, prinsip dasar, peran, artefak, acara, siklus Sprint, integrasi dengan Laravel, dan mekanisme pertanggungjawaban.
+Penelitian ini menerapkan metode Agile dengan Scrum. Tahapan pengembangan dijelaskan sebagai berikut.
+1. Perencanaan kebutuhan dan penyusunan Product Backlog
+Pada tahap awal, peneliti mengidentifikasi kebutuhan fungsional dan non-fungsional dari pemangku kepentingan, seperti pendaftaran peserta, pengelolaan data, unggah dan verifikasi dokumen, pembayaran elektronik, pengelolaan materi, pencatatan kehadiran, notifikasi, dan dashboard. Kebutuhan ini didokumentasikan dengan diagram UML dan desain antarmuka, lalu diprioritaskan dalam Product Backlog.
+2. Sprint Planning, perancangan iteratif, dan prototipe
+Tahap inti meliputi Sprint Planning, pemilihan item Product Backlog, dan perancangan solusi. Peneliti membangun increment secara bertahap dan mengevaluasi hasil bersama pemangku kepentingan untuk mendapatkan umpan balik. Proses ini diulang hingga fitur prioritas dinyatakan layak.
+3. Implementasi penuh dan konstruksi sistem (pada setiap Sprint)
+Tahap ini mencakup implementasi item Sprint Backlog menjadi bagian sistem terintegrasi. Peneliti mengembangkan aplikasi web dengan Laravel, menyesuaikan basis data, menyempurnakan logika bisnis dan tampilan, serta mengintegrasikan modul pendukung seperti pembayaran elektronik jika termasuk dalam Sprint. Pengujian fungsional memastikan sistem berjalan sesuai kebutuhan.
+4. Sprint Review, perbaikan, dan validasi akhir (cutover penelitian)
+Tahap ini menutup siklus Sprint dan memastikan kualitas hasil. Pada Sprint Review, peneliti mendemonstrasikan increment kepada pemangku kepentingan dan mencatat perbaikan. Sprint Retrospective dilakukan untuk evaluasi proses. Di akhir penelitian, dilakukan pengujian terbatas dan simulasi alur kritis untuk memastikan sistem sesuai ruang lingkup sebelum didokumentasikan.
+                         E. Metode Penelitian 
+Prosedur penelitian ini dirancang untuk membangun aplikasi web kursus persiapan pernikahan di Biara Loresa SCJ. Prosesnya mengikuti metode R&D dan Agile Scrum, dengan fokus pada kebutuhan fungsional dalam modul aplikasi.
+  
+
+  
+
+                        
+      F. Perancangan Sistem 
+Subbab ini menjelaskan perancangan sistem sebagai acuan teknis dalam pengembangan aplikasi layanan kursus persiapan pernikahan di Biara Loresa SCJ. Perancangan mencakup arsitektur sistem, basis data, alur proses, dan antarmuka agar implementasi berjalan terarah sesuai kebutuhan pengguna.Pembahasan tersebut diuraikan lebih jelas sebagai berikut.
+      1. Perancangan arsitektur sistem
+        Arsitektur sistem dirancang dengan pola client-server berbasis web. Pengguna mengakses aplikasi melalui browser, sementara pemrosesan data berlangsung di server. Backend menggunakan Laravel dan terhubung ke basis data relasional untuk menyimpan data layanan. Sistem juga mendukung integrasi pembayaran melalui Midtrans atau QRIS. Pendekatan ini memudahkan pengembangan bertahap, pemisahan tampilan dan logika bisnis, serta pemeliharaan dan pengujian.
+      2.

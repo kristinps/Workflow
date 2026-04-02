@@ -1,0 +1,9 @@
+# Manfaat Penelitian
+
+Penelitian ini memberikan manfaat langsung bagi Biara Loresa SCJ karena proses pendaftaran dan manajemen KPP menjadi lebih terstruktur. Sistem berbasis web membantu percepatan layanan administrasi dari tahap awal hingga tahap akhir. Dokumentasi data peserta, dokumen, dan status layanan menjadi lebih rapi serta mudah ditelusuri. Hal ini mendukung peningkatan mutu layanan lembaga secara berkelanjutan.
+
+Penelitian ini memberikan manfaat bagi administrator karena alur kerja operasional terpusat dalam satu sistem. Administrator dapat mengelola pendaftaran, verifikasi dokumen, penjadwalan periode, materi, kehadiran, biaya, dan sertifikat secara terintegrasi. Proses pengambilan keputusan menjadi lebih cepat karena informasi tersedia secara real-time pada dashboard. Risiko kesalahan akibat proses manual juga dapat ditekan melalui validasi dan pencatatan sistematis.
+
+Penelitian ini memberikan manfaat bagi peserta KPP melalui kemudahan akses layanan secara daring. Peserta dapat melakukan pendaftaran, unggah dokumen, pembayaran QRIS, dan pemantauan status tanpa harus selalu hadir langsung. Peserta juga memperoleh akses informasi jadwal materi, biaya, dan sertifikat melalui akun masing-masing. Kemudahan ini meningkatkan pengalaman pengguna dan efisiensi waktu selama mengikuti proses KPP.
+
+Penelitian ini memberikan manfaat akademik dan teknis sebagai referensi pengembangan sistem informasi layanan keagamaan berbasis web. Hasil penelitian menunjukkan penerapan alur end-to-end dari pendaftaran hingga penerbitan sertifikat dapat diimplementasikan secara nyata. Dokumen penelitian ini juga dapat menjadi dasar evaluasi usability menggunakan metode SUS pada penelitian lanjutan. Dengan demikian, penelitian tidak hanya bermanfaat praktis, tetapi juga berkontribusi pada pengembangan ilmu dan praktik rekayasa sistem informasi.

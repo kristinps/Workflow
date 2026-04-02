@@ -1,0 +1,115 @@
+﻿PROPOSAL
+TUGAS AKHIR
+
+
+PERANCANGAN DAN IMPLEMENTASI SISTEM PENDAFTARAN KURSUS PERNIKAHAN DENGAN FITUR PEMBAYARAN QRIS PADA BIARA LORESA SCJ SP3
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+KRISTINA PUTRI SAROAN
+2251 2023
+
+
+
+
+PROGRAM STUDI TEKNOLOGI REKAYASA INTERNET
+POLITEKNIK AMAMAPARE TIMIKA
+2026
+        
+BAB I 
+PENDAHULUAN
+1. LATAR BELAKANG
+Perkembangan teknologi informasi dan komunikasi telah mengubah pola hidup masyarakat secara global. Kemajuan internet, perangkat mobile, dan platform digital memperluas akses informasi dan layanan, sehingga digitalisasi semakin merambah sektor pendidikan, kesehatan, bisnis, dan layanan publik. Kondisi ini menuntut lembaga untuk mengelola administrasi secara lebih cepat, transparan, dan konsisten. Transformasi digital dalam manajemen pendidikan dapat meningkatkan efisiensi layanan, keterlibatan pemangku kepentingan, dan tata kelola data, serta mengurangi ketergantungan pada proses manual jika didukung oleh kebijakan dan literasi digital yang memadai (Ilyas et al., 2025).
+
+
+Pengembangan sistem informasi berbasis web merupakan pendekatan yang relevan untuk menyatukan alur data, mengatur hak akses pengguna, dan memudahkan pelacakan status layanan. Temuan di sektor layanan publik dapat menjadi acuan bagi lembaga keagamaan yang membutuhkan tata kelola data yang rapi dan akuntabel. Hilhorst et al. (2022) menunjukkan bahwa investasi teknologi informasi pada pemerintahan kota meningkatkan efisiensi penyaluran layanan publik dibandingkan dengan skenario tanpa pemanfaatan teknologi informasi. Dalam penelitian ini, Biara Loresa SCJ dipilih sebagai lokus karena perannya sebagai penyelenggara pembinaan rohani dan Kursus Persiapan Pernikahan (KPP), serta kemudahan akses data dan koordinasi dengan pastor pembimbing.
+Hasil wawancara pada 15 Februari dengan Pastor Markus Apriyono, SCJ, menunjukkan bahwa pengelolaan Kursus Persiapan Perkawinan (KPP) di Biara Loresa SCJ masih manual, mulai dari pendaftaran hingga pembayaran. Proses manual ini berisiko menimbulkan kerusakan dokumen, kehilangan berkas, kesalahan pencatatan, dan beban administrasi yang tinggi. Untuk mengatasi hal tersebut, peneliti mengusulkan pengembangan aplikasi web dengan fitur pembayaran QRIS dan pengelolaan dokumen terpusat. Usulan ini telah disetujui oleh Pastor Markus Apriyono, SCJ, dan didukung oleh temuan Nugroho et al. (2022) yang menyatakan digitalisasi berbasis Laravel dapat meningkatkan efisiensi pengelolaan data.
+
+
+Permasalahan ini menimbulkan kebutuhan akan sistem informasi pendaftaran dan pembayaran berbasis web yang mendukung pendaftaran jarak jauh, unggah dokumen persyaratan, verifikasi terstruktur, dan pemantauan status secara berkala. Wibowo et al. (2022) menunjukkan bahwa implementasi aplikasi web berbasis arsitektur Model-View-Controller (MVC) pada Laravel mendukung keterpeliharaan sistem saat kebutuhan fungsional berkembang. Oleh karena itu, solusi dalam penelitian ini diarahkan untuk mengintegrasikan alur pendaftaran, pengelolaan data peserta, dan proses administrasi secara lebih efektif.
+Solusi yang diusulkan terdiri atas dua subsistem utama: subsistem peserta dan subsistem administrator. Pada subsistem peserta, calon mempelai dapat mendaftar daring, mengunggah dokumen persyaratan, membayar melalui QRIS terintegrasi dengan Midtrans, memantau status pendaftaran, melihat jadwal materi, dan mengunduh sertifikat melalui dashboard. Pada subsistem administrator, pastor atau staf biara dapat mengelola periode kursus, memverifikasi dokumen, menyiapkan materi, membagikan tautan Zoom, mencatat kehadiran, mengelola biaya tambahan, menerbitkan sertifikat, dan mengirim notifikasi email. Alim et al. (2022) menegaskan bahwa platform berbasis web mendukung keterlibatan pengguna melalui akses informasi yang terstruktur dan real-time.
+Pengembangan sistem dalam penelitian ini menggunakan metode Scrum dengan membagi pekerjaan ke dalam sprint terukur dan menetapkan target fitur pada setiap iterasi. Ruang lingkup pengembangan meliputi modul pendaftaran, pembayaran, dashboard peserta, panel admin, pengelolaan dokumen, materi, kehadiran, sertifikat, dan notifikasi email. Setiap hasil sprint diuji sebelum digabungkan ke branch utama untuk menjaga kualitas sistem. Alami dan Krancher (2022) menunjukkan bahwa penerapan Scrum secara konsisten meningkatkan kualitas perangkat lunak melalui kolaborasi, transparansi, inspeksi, dan adaptasi dalam siklus pengembangan.
+
+
+
+
+2. RUMUSAN MASALAH
+Berdasarkan latar belakang yang telah diuraikan, permasalahan dalam penelitian ini dapat dirumuskan sebagai berikut:
+1. Bagaimana perancangan sistem pendaftaran KPP berbasis web yang sesuai dengan kebutuhan pengguna di Biara Loresa SCJ?
+2. Bagaimana perancangan dashboard manajemen kursus dan pendaftaran yang dapat membantu administrator dalam mengelola data secara efektif?
+3. Bagaimana penerapan metode Agile dalam proses pengembangan sistem pendaftaran dan manajemen KPP berbasis web?
+4. Bagaimana evaluasi sistem pendaftaran dan manajemen KPP menggunakan metode System Usability Scale (SUS) untuk menilai kemudahan penggunaan dan efektivitas sistem?
+
+
+3. TUJUAN PENELITIAN
+Berdasarkan rumusan masalah yang telah diuraikan, maka
+tujuan penelitian ini adalah:
+1. Merancang sistem pendaftaran Kursus Persiapan Pernikahan (KPP) berbasis web yang disesuaikan dengan kebutuhan pengguna di Biara Loresa SCJ untuk mempermudah proses pendaftaran peserta secara efektif dan efisien.
+2. Merancang dashboard manajemen kursus dan pendaftaran yang mendukung administrator dalam pengelolaan data peserta, jadwal kegiatan, dan proses pembayaran secara terintegrasi dan sistematis.
+3. Menerapkan metode Agile dalam pengembangan sistem pendaftaran dan manajemen KPP berbasis web untuk memastikan proses pengembangan yang fleksibel, terstruktur, dan adaptif terhadap perubahan kebutuhan pengguna.
+4. Melakukan evaluasi sistem dengan metode System Usability Scale (SUS) untuk mengukur tingkat kemudahan penggunaan (usability) dan efektivitas sistem yang dikembangkan.
+
+
+
+
+________________
+
+
+4. BATASAN MASALAH
+Penelitian ini berfokus pada pengembangan sistem pendaftaran Kursus Persiapan Pernikahan (KPP) berbasis web di Biara Loresa SCJ. Batasan masalah dalam penelitian ini dijabarkan sebagai berikut:
+1. Penelitian ini membahas sistem pendaftaran peserta KPP secara daring, meliputi pengisian biodata peserta dan pengunggahan dokumen persyaratan seperti KTP, foto, surat baptis, dan surat pengantar komunitas. Pendaftaran manual menggunakan formulir fisik tidak termasuk dalam ruang lingkup penelitian.
+2. Sistem pembayaran yang dikembangkan hanya mencakup QRIS (Quick Response Code Indonesian Standard) sebagai metode pembayaran utama. Metode pembayaran lain seperti transfer bank atau tunai tidak dibahas dalam sistem ini.
+3. Verifikasi dokumen peserta dilakukan secara digital oleh administrator melalui subsistem berbasis web tanpa interaksi fisik dengan peserta. Pengelolaan dokumen fisik, termasuk pengumpulan dokumen secara manual, tidak dibahas dalam sistem ini.
+4. Pengelolaan jadwal kursus, materi, dan penerbitan sertifikat kelulusan dilakukan oleh administrator melalui dashboard manajemen. Sistem ini tidak mencakup pengelolaan materi pelajaran lain di luar kegiatan kursus yang ada.
+5. Evaluasi sistem dilakukan menggunakan metode System Usability Scale (SUS) untuk mengukur kemudahan penggunaan dan efektivitas sistem dari perspektif peserta dan administrator. Evaluasi terkait kinerja sistem atau uji teknis lain, seperti beban server atau pengujian fungsional lanjutan, tidak menjadi fokus penelitian ini.
+6. Sistem dikembangkan menggunakan metode Agile, dengan pembagian pekerjaan dalam sprint untuk pengembangan fitur utama menggunakan repository GitHub untuk pengelolaan kode dan perencanaan tugas.
+7. Penelitian ini melibatkan dua jenis pengguna utama, yaitu peserta kursus dan administrator. Sistem yang dikembangkan tidak mencakup peran lain yang mungkin terlibat dalam proses kursus, seperti pengajar atau pihak eksternal.
+8. Penelitian ini tidak membahas atau mengelola data pengguna di luar data pendaftaran peserta KPP, seperti data transaksi keuangan atau data sensitif lain yang tidak terkait langsung dengan pendaftaran. Fokus penelitian adalah pada data yang berkaitan dengan pendaftaran, dokumen peserta, dan pembayaran.
+9. Sistem ini dikembangkan untuk platform web yang dapat diakses menggunakan browser standar seperti Chrome, Firefox, atau Safari. Penggunaan aplikasi mobile atau pengembangan platform selain web tidak termasuk dalam ruang lingkup penelitian.
+10. Sistem ini diuji dalam lingkungan Biara Loresa SCJ, dan hasil pengujian hanya berlaku untuk penerapan sistem di lembaga ini. Generalisasi hasil uji coba ke lembaga lain atau skala yang lebih besar tidak dilakukan dalam penelitian ini.
+11. Penelitian ini tidak mencakup pengembangan integrasi dengan sistem eksternal lain, seperti sistem akademik di lembaga lain atau aplikasi pembayaran selain QRIS. Sistem pendaftaran ini bersifat mandiri.
+12. Domain yang digunakan adalah biaraloresa.my.id. Penelitian ini secara khusus tidak membahas pengembangan atau penggunaan domain selain biaraloresa.my.id
+
+
+5. MANFAAT PENELITIAN
+Penelitian ini diproyeksikan memberikan manfaat signifikan bagi berbagai pemangku kepentingan, baik secara langsung maupun tidak langsung, yang terlibat dalam pengembangan sistem pendaftaran Kursus Persiapan Pernikahan (KPP) berbasis web di Biara Loresa SCJ. Manfaat utama penelitian ini dapat dirangkum sebagai berikut:
+1. Bagi Biara Loresa SCJ, penelitian ini bertujuan untuk meningkatkan efisiensi dalam proses pendaftaran Kursus Persiapan Pernikahan (KPP). Dengan penerapan sistem berbasis web, kesalahan pencatatan dapat diminimalisir dan proses administrasi menjadi lebih cepat. Selain itu, sistem ini juga dapat memperbaiki kualitas layanan kepada peserta KPP. Peserta dapat mengakses informasi secara real-time dan mengelola pendaftaran mereka dengan lebih mudah.
+2. Bagi Peserta KPP, sistem pendaftaran dan pembayaran berbasis web ini memberikan kemudahan dalam menyelesaikan seluruh prosedur administrasi tanpa harus hadir langsung. Mereka dapat melakukan pendaftaran dan pembayaran kursus secara daring dengan lebih efisien. Fitur pemantauan status pendaftaran juga memberikan kemudahan bagi peserta untuk memantau perkembangan administrasi mereka. Pembaruan informasi yang dikirim otomatis juga meningkatkan pengalaman pengguna selama proses pendaftaran.
+3. Bagi Pengembang Sistem, penelitian ini memberikan model pengembangan sistem pendaftaran berbasis web yang dapat diterapkan di lembaga lain yang memiliki kebutuhan serupa. Pendekatan yang digunakan dalam pengembangan sistem ini, yakni dengan metode Agile, memungkinkan sistem dikembangkan secara fleksibel dan terstruktur. Hal ini memberikan wawasan berharga tentang penerapan metode Agile dalam pengembangan sistem di lingkungan lembaga keagamaan dan pendidikan. Dengan pendekatan ini, pengembang dapat memastikan sistem yang dibangun dapat beradaptasi dengan kebutuhan yang terus berkembang.
+4. Bagi Peneliti dan Akademisi, penelitian ini dapat menambah literatur mengenai penerapan teknologi informasi dalam manajemen pendidikan di lembaga keagamaan. Selain itu, penelitian ini juga memberikan contoh aplikasi sistem pendaftaran berbasis web dalam konteks lembaga non-komersial. Implementasi metode Agile dalam pengembangan sistem informasi juga dapat menjadi referensi penting bagi pengembangan sistem di lembaga-lembaga serupa. Penelitian ini berpotensi memperkaya wawasan mengenai penggunaan teknologi dalam dunia pendidikan dan pelayanan publik.
+
+
+6. SISTEMATIKA  PENULISAN
+Untuk memudahkan pemahaman proposal tugas akhir ini, berikut disajikan sistematika penulisannya. Sistematika ini mencakup urutan penulisan setiap bab dan sub-bab dari BAB I hingga BAB III. Rincian sistematika penulisan adalah sebagai berikut: 1. Bagian Awal Proposal Tugas Akhir, yang meliputi halaman judul, persetujuan, prakata, daftar isi, daftar tabel, daftar gambar, dan daftar lampiran. 2. Bagian Utama Proposal Tugas Akhir, yang terdiri dari bab dan sub-bab sebagai berikut:
+1. Bagian Awal Proposal Tugas Akhir
+Bagian awal proposal tugas akhir mencakup halaman judul, halaman persetujuan, halaman prakata, daftar isi, daftar tabel, daftar gambar, dan daftar lampiran.
+2. Bagian Utama Proposal Tugas Akhir
+ Bagian utama proposal tugas akhir terdiri atas bab dan sub-bab yang dijelaskan sebagai berikut:
+BAB I PENDAHULUAN
+Bab ini terdiri atas latar belakang masalah yang menjelaskan pentingnya pengembangan sistem pendaftaran Kursus Persiapan Pernikahan (KPP) berbasis web, rumusan masalah, tujuan penelitian, batasan masalah, manfaat penelitian, dan sistematika penulisan.
+BAB II TINJAUAN PUSTAKA
+Bab ini terdiri atas penelitian terdahulu yang membahas sistem pendaftaran berbasis web, penerapan QRIS dalam pembayaran digital, serta penggunaan metode Agile dalam pengembangan sistem perangkat lunak. Selain itu, akan dibahas pula teori-teori yang relevan dengan topik penelitian.
+BAB III METODOLOGI PENELITIAN
+Bab ini membahas waktu dan tempat penelitian yang berlokasi di Biara Loresa SCJ, jenis serta pendekatan penelitian yang diterapkan, teknik pengumpulan data untuk mendesain dan mengembangkan sistem, metode pengembangan sistem, prosedur penelitian, perancangan sistem pendaftaran berbasis web dengan fitur QRIS, spesifikasi teknologi yang digunakan, instrumen penelitian untuk pengujian sistem, serta teknik pengelolaan data yang akan diimplementasikan dalam sistem.
+3. Bagian Akhir Proposal Tugas Akhir
+Bagian akhir tugas akhir memuat halaman daftar pustaka dan
+halaman lampiran
