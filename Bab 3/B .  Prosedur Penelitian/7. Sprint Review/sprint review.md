@@ -1,62 +1,14 @@
 # Sprint Review
 
-Pada penelitian ini, Sprint Review dilaksanakan pada penutupan setiap sprint untuk memastikan hasil implementasi benar-benar sejalan dengan tujuan sprint, backlog prioritas, dan kebutuhan layanan KPP. Kegiatan review dilakukan dengan mempresentasikan increment yang sudah berjalan pada sisi peserta dan admin, menelaah hasil pengujian, lalu menetapkan perbaikan yang perlu dimasukkan ke backlog berikutnya agar kualitas sistem meningkat secara bertahap.
+*Sprint Review* merupakan pertemuan di akhir setiap *Sprint* untuk memeriksa *increment* yang dihasilkan dan mengumpulkan umpan balik terhadap keluaran produk. Acara memverifikasi kesesuaian *increment* dengan sasaran *Sprint* dan subset *product backlog* yang dipilih pada *Sprint Planning*. Demonstrasi fungsional menjadi media utama agar perilaku sistem dapat dinilai dari perspektif pemangku kepentingan layanan. Hasil tinjauan menjadi dasar penyesuaian *product backlog* dan perencanaan iterasi berikutnya.
 
-## Tujuan Sprint Review
-
-1. Memvalidasi apakah increment sprint telah memenuhi target fungsional.
-2. Menunjukkan hasil pengembangan kepada pemangku kepentingan untuk memperoleh umpan balik.
-3. Mengidentifikasi penyesuaian backlog untuk sprint berikutnya.
-4. Menjamin arah pengembangan tetap sesuai kebutuhan layanan pada `Kebutuhan user`.
+Penelitian ini mengimplementasikan sistem informasi pendaftaran untuk Kursus Persiapan Perkawinan, selanjutnya disebut KPP, di Biara Loresa SCJ SP3 pada proyek aplikasi berbasis Laravel. Tabel berikut menyusun agenda *Sprint Review* per *Sprint* sesuai dokumen *Sprint Planning* dan *Sprint Backlog*. Setiap sesi dapat mencatat temuan fungsional, kendala penggunaan antarmuka, maupun ketidaksesuaian alur sebagai masukan perbaikan tanpa menggantikan artefak pengujian pada tahap *Increment Development & Testing*. Kolom **Sprint** memuat nama iterasi. Kolom **Agenda demonstrasi** memuat urutan pokok yang ditampilkan pada demonstrasi *increment*. Kolom **Fokus evaluasi** memuat kriteria penilaian perilaku sistem yang relevan dengan modul pada iterasi tersebut. Rentang tanggal tiap *Sprint* mengacu pada dokumen *Sprint Planning*.
 
 ## Tabel Sprint Review
 
-
-| Sprint   | Tujuan Hasil Sprint                                                                                                             | Tujuan Review Sprint                                                                                                                                             |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sprint 1 | Menghasilkan fondasi layanan digital melalui autentikasi, pendaftaran online, dan unggah dokumen yang berjalan pada alur utama. | Memastikan alur dasar peserta berfungsi dengan baik, memeriksa kualitas validasi form, dan menetapkan perbaikan awal untuk sprint berikutnya.                    |
-| Sprint 2 | Menghasilkan proses verifikasi dokumen dan pembayaran QRIS yang terintegrasi dengan status pendaftaran peserta.                 | Memastikan konsistensi status verifikasi-pembayaran, mengevaluasi kejelasan informasi status peserta, dan menyusun penyesuaian logika proses.                    |
-| Sprint 3 | Menghasilkan modul operasional kursus per periode meliputi pengelolaan periode, materi/jadwal, dan kehadiran.                   | Memastikan kestabilan alur operasional admin, meninjau sinkronisasi data periode, dan menetapkan perbaikan relasi data serta jadwal.                             |
-| Sprint 4 | Menghasilkan penyempurnaan layanan melalui fitur biaya tambahan, sertifikat, dashboard, notifikasi, dan profil akun.            | Memastikan integrasi seluruh modul end-to-end, mengevaluasi kualitas tampilan ringkasan informasi, dan menutup backlog prioritas sebelum sistem dinyatakan siap. |
-
-Diagram berikut menyajikan **Sprint Review dalam bentuk pohon berakar** berdasarkan isi tabel Sprint Review serta keterkaitannya dengan implementasi pada folder `Program`.
-
-```mermaid
-flowchart TB
-    A["Demo hasil increment (Sprint 1-4)"]
-    A1["Sprint 1: autentikasi, pendaftaran, dokumen"]
-    A2["Sprint 2: verifikasi, QRIS, status pendaftaran"]
-    A3["Sprint 3: periode, materi/jadwal, kehadiran"]
-    A4["Sprint 4: biaya, sertifikat, dashboard, notifikasi, profil"]
-    B["Validasi terhadap tujuan hasil dan tujuan review per sprint"]
-    C["Umpan balik pemangku kepentingan"]
-    D["Daftar perbaikan fitur dan proses"]
-    E["Update Product Backlog"]
-    F["Masukan untuk Sprint berikutnya"]
-
-    A --> A1
-    A --> A2
-    A --> A3
-    A --> A4
-    A1 --> B
-    A2 --> B
-    A3 --> B
-    A4 --> B
-    B --> C --> D --> E --> F
-```
-
-
-## Hasil Sprint Review per Sprint
-
-
-| Sprint   | Increment yang Ditinjau                                                                                                                                                         | Hasil Review Spesifik                                                                                            | Umpan Balik Utama                                                                                                  | Tindak Lanjut Backlog                                                                                              |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| Sprint 1 | Autentikasi, pendaftaran online, dan unggah dokumen (`LoginController`, `KursusPendaftaranController`, `user/pendaftaran`, `user/dokumen`)                                      | Alur registrasi akun sampai penyimpanan dokumen berhasil pada skenario utama peserta.                            | Validasi beberapa field masih terlalu ketat dan pesan kesalahan belum informatif.                                  | Menyederhanakan aturan validasi, memperjelas pesan error, dan merapikan alur input form.                           |
-| Sprint 2 | Verifikasi dokumen admin, pembayaran QRIS, dan status pendaftaran (`Admin/DokumenController`, `PembayaranController`, `user/status-pendaftaran`)                                | Verifikasi dokumen dan proses pembayaran dapat dijalankan, serta status pendaftaran dapat berubah sesuai proses. | Sinkronisasi status verifikasi dan status pembayaran perlu dibuat lebih konsisten pada beberapa kondisi transaksi. | Penyesuaian logika pembaruan status, validasi callback pembayaran, dan penyempurnaan tampilan status peserta.      |
-| Sprint 3 | Pengelolaan periode, materi/jadwal, dan kehadiran (`Admin/PeriodeController`, `Admin/MateriKursusController`, `Admin/KehadiranController`)                                      | Fitur operasional kursus per periode sudah berjalan dan data utama dapat dikelola admin.                         | Ditemukan kebutuhan sinkronisasi lebih baik antara jadwal materi dan data peserta per periode.                     | Perbaikan relasi data periode, validasi jadwal, dan pengujian ulang skenario operasional harian.                   |
-| Sprint 4 | Biaya tambahan, sertifikat, dashboard, notifikasi, dan profil (`Admin/BiayaController`, `Admin/SuratKelulusanController`, `Admin/DashboardController`, `UserProfileController`) | Integrasi fitur pendukung selesai dan alur layanan dari pendaftaran hingga pasca-kelulusan berjalan end-to-end.  | Masih diperlukan perapian minor pada antarmuka dashboard dan konsistensi beberapa informasi ringkasan.             | Finalisasi antarmuka, retest end-to-end, dan penutupan backlog prioritas sebelum sistem dinyatakan siap digunakan. |
-
-
-## Dampak Sprint Review
-
-Melalui Sprint Review, setiap increment pada penelitian ini divalidasi secara bertahap dan dikaitkan langsung dengan kebutuhan layanan KPP. Umpan balik dari hasil demonstrasi dan pengujian digunakan untuk memperbarui prioritas backlog, sehingga pengembangan tetap terukur, adaptif, dan selaras dengan `Kebutuhan user`.
+| Sprint | Agenda demonstrasi | Fokus evaluasi |
+| --- | --- | --- |
+| Sprint 1 | Mendemonstrasikan halaman layanan publik, formulir pendaftaran KPP, integrasi pembayaran nirtunai berbasis QRIS, serta otentikasi peserta, dasbor ringkas, dan status pendaftaran awal. | Menilai keberfungsian alur utama dan penanganan kasus pengecualian, konsistensi status pendaftaran dan pembayaran, serta pembatasan akses menurut peran pada skenario yang disepakati. |
+| Sprint 2 | Mendemonstrasikan modul unggah dokumen peserta, halaman jadwal materi, biaya, unduhan sertifikat pada sisi peserta, serta daftar pendaftaran dan verifikasi dokumen serta penugasan periode pada sisi pengelola. | Menilai kesesuaian tampilan status dan dokumen pada peserta dengan data setelah aksi verifikasi maupun penolakan pengelola, serta kelancaran alur perbaikan unggahan. |
+| Sprint 3 | Mendemonstrasikan pengelolaan periode dan materi, pencatatan kehadiran, biaya dan tagihan, serta pengelolaan berkas kelulusan dan akses unduh sertifikat beserta status kelulusan pada peserta. | Menilai integritas alur operasional kursus, konsistensi data antar modul periode, kehadiran, tagihan, dan kelulusan pada skenario yang disepakati. |
+| Sprint 4 | Mendemonstrasikan pendaftaran akun pengelola pada kanal administrasi beserta verifikasi surel serta pengelolaan daftar akun administrator oleh pengawas utama. | Menilai keamanan alur verifikasi surel, aktivasi akses panel pengelola, kelengkapan operasi pengelolaan akun, serta pembatasan akses menurut peran. |

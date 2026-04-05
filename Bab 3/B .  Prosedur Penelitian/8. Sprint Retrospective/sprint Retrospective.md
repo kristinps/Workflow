@@ -1,25 +1,14 @@
 # Sprint Retrospective
 
-Sprint Retrospective merupakan tahap refleksi tim pada akhir sprint untuk mengevaluasi proses kerja, mengidentifikasi hal yang sudah berjalan baik, serta menentukan perbaikan pada sprint berikutnya. Dalam penelitian ini, retrospektif dilakukan dengan mempertimbangkan kesesuaian proses pengembangan sistem informasi terhadap kebutuhan pengguna yang dirumuskan dalam `Kebutuhan user`.
+*Sprint Retrospective* merupakan pertemuan setelah *Sprint Review* untuk merefleksikan bagaimana proses kerja berlangsung selama satu iterasi pengembangan. Fokusnya pada efektivitas kolaborasi, komunikasi tugas, dan penanganan hambatan proses, bukan pada penambahan fitur baru sebagai pokok bahasan. Pelaksana pengembangan mengidentifikasi praktik yang berhasil dipertahankan, hambatan berulang, serta perbaikan proses yang akan diterapkan pada *Sprint* berikutnya. Hasil retrospektif berupa kesepakatan perbaikan proses yang dapat diuji pada iterasi selanjutnya.
 
-## Tujuan Sprint Retrospective
+Penelitian ini mengimplementasikan sistem informasi pendaftaran untuk Kursus Persiapan Perkawinan, selanjutnya disebut KPP, di Biara Loresa SCJ SP3 pada proyek aplikasi berbasis Laravel. Tabel berikut menyusun rumusan *Sprint Retrospective* per *Sprint* sesuai dokumen *Sprint Planning* dan *Sprint Backlog*. Tema refleksi mengikuti modul yang menjadi fokus pada iterasi bersangkutan tanpa menggantikan artefak dari *Sprint Review* maupun tahap *Increment Development & Testing*. Kolom **Sprint** memuat nama iterasi. Kolom **Fokus refleksi proses** memuat pokok tinjauan cara kerja selama iterasi. Kolom **Arah perbaikan proses** memuat penyepakatan perbaikan yang akan diterapkan pada iterasi berikutnya. Rentang tanggal tiap *Sprint* mengacu pada dokumen *Sprint Planning*.
 
-1. Mengevaluasi efektivitas proses kerja tim selama sprint.
-2. Mengidentifikasi hambatan yang memengaruhi pencapaian Sprint Goal.
-3. Menetapkan tindakan perbaikan yang konkret untuk sprint berikutnya.
-4. Meningkatkan kualitas kolaborasi dan hasil pengembangan sistem.
+## Tabel Sprint Retrospective
 
-## Hasil Sprint Retrospective per Sprint
-
-
-| Sprint   | Yang Berjalan Baik                                                                          | Yang Perlu Ditinggalkan                                                                           | Tindak Lanjutan Perbaikan                                                                               |
-| -------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| Sprint 1 | Alur pendaftaran online dan unggah dokumen berhasil dibangun sesuai target awal.            | Praktik validasi input yang belum konsisten pada beberapa kondisi data.                           | Menstandarkan aturan validasi, menambah skenario uji form, dan merapikan pesan kesalahan input.         |
-| Sprint 2 | Integrasi verifikasi dokumen dan pembayaran QRIS berjalan pada alur utama layanan.          | Pola sinkronisasi status pembayaran dan notifikasi yang belum stabil di beberapa kasus transaksi. | Memperjelas transisi status verifikasi-pembayaran dan memperketat pengujian integrasi transaksi.        |
-| Sprint 3 | Modul periode, materi, dan kehadiran sudah dapat digunakan admin untuk operasional harian.  | Praktik pengelolaan jadwal yang belum sepenuhnya selaras dengan data peserta per periode.         | Memperbaiki relasi data, menambah validasi keterkaitan antar modul, dan uji ulang skenario operasional. |
-| Sprint 4 | Modul pendukung (biaya, sertifikat, dashboard, profil, notifikasi) berhasil diintegrasikan. | Kebiasaan menunda perapian minor pada tampilan dan ringkasan informasi akhir.                     | Finalisasi antarmuka, retest end-to-end, serta penyempurnaan dokumentasi hasil pengembangan.            |
-
-
-## Rencana Perbaikan Berkelanjutan
-
-Tindak lanjut retrospektif difokuskan pada peningkatan kualitas validasi data, kestabilan integrasi antar modul, serta konsistensi tampilan antarmuka. Dengan pendekatan ini, proses pengembangan sistem informasi tetap adaptif, terkontrol, dan selaras dengan kebutuhan layanan yang diperoleh dari `Kebutuhan user`.
+| Sprint | Fokus refleksi proses | Arah perbaikan proses |
+| --- | --- | --- |
+| Sprint 1 | Mengevaluasi ritme pengerjaan halaman publik, formulir pendaftaran KPP, integrasi pembayaran nirtunai berbasis QRIS, serta otentikasi dan pemeriksaan peran akses. | Menyepakati penyesuaian urutan tugas harian, kejelasan kriteria selesai, serta penanganan kesalahan masukan pada modul terkait. |
+| Sprint 2 | Mengevaluasi koordinasi antara tampilan layanan peserta dan modul verifikasi pengelola. | Menyepakati perbaikan komunikasi status pendaftaran dan dokumen, serta kebiasaan pengujian setelah perubahan status oleh pengelola. |
+| Sprint 3 | Mengevaluasi kompleksitas pengelolaan periode, materi, kehadiran, biaya, dan sertifikat. | Menyepakati pembagian tugas antar subtahap, konsistensi transaksi tagihan, serta cakupan pengujian integrasi antar modul operasional. |
+| Sprint 4 | Mengevaluasi alur pendaftaran akun pengelola, pengelolaan akun administrator oleh pengawas utama, serta fitur pesan pada dasbor pengguna. | Menyepakati prosedur verifikasi akses, dokumentasi peran, serta penutupan *Sprint* dari sisi keamanan dan kejelasan antarmuka. |

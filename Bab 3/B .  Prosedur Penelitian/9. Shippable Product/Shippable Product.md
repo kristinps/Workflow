@@ -1,29 +1,14 @@
 # Shippable Product
 
-Shippable Product merupakan hasil akhir pengembangan sistem yang telah melalui rangkaian sprint, pengujian fungsional, Sprint Review, dan Sprint Retrospective, sehingga siap digunakan oleh pengguna. Pada penelitian ini, shippable product diwujudkan dalam bentuk sistem informasi pendaftaran Kursus Persiapan Pernikahan (KPP) berbasis web yang dikembangkan melalui tahap pengembangan sistem informasi berdasarkan kebutuhan pada `Kebutuhan user`.
+*Shippable Product* merujuk pada *increment* yang memenuhi definisi selesai sehingga dapat dioperasikan maupun didemonstrasikan sebagai bagian utuh dari layanan, bukan sekadar kumpulan kode yang belum teruji. Status *shippable* menandakan bahwa rentang fitur pada *Sprint* bersangkutan telah diuji secara fungsional dan stabil dalam implementasi sehingga keluaran dapat ditinjau pada *Sprint Review* dan diserahkan sebagai potongan produk yang bermakna bagi pemangku kepentingan.
 
-## Cakupan Produk Akhir
+Penelitian ini mengimplementasikan sistem informasi pendaftaran untuk Kursus Persiapan Perkawinan, selanjutnya disebut KPP, di Biara Loresa SCJ SP3 pada proyek aplikasi berbasis Laravel. Produk disusun secara bertahap melalui empat *Sprint* sesuai dokumen *Sprint Planning* dan *Product Backlog*. Tabel berikut memuat keluaran yang layak dianggap *shippable* pada akhir setiap iterasi tanpa menggantikan dokumentasi pengujian rinci pada subbab *Increment Development & Testing* maupun lampiran kasus uji. Kolom **Sprint** memuat nama iterasi. Kolom **Keluaran increment** memuat ringkasan modul yang termasuk dalam potongan produk. Kolom **Cakupan layanan siap operasi** memuat uraian kesatuan fungsional yang dapat dijalankan. Rentang tanggal tiap *Sprint* mengacu pada dokumen *Sprint Planning*.
 
-Produk akhir mencakup fitur-fitur utama yang dibutuhkan dalam layanan KPP, yaitu:
+## Tabel Shippable Product
 
-1. Pendaftaran peserta secara online.
-2. Upload dan verifikasi dokumen persyaratan.
-3. Pembayaran pendaftaran melalui QRIS (Midtrans).
-4. Pemantauan status pendaftaran oleh peserta.
-5. Pengelolaan periode, materi, dan kehadiran oleh admin.
-6. Pengelolaan biaya tambahan dan sertifikat kelulusan.
-7. Dashboard operasional sesuai peran (super admin, admin, dan user).
-
-## Kriteria Kesiapan Shippable Product
-
-| Aspek | Kriteria | Status |
-|---|---|---|
-| Fungsionalitas | Fitur inti berjalan sesuai kebutuhan pengguna | Tercapai |
-| Integrasi Modul | Alur antar modul (pendaftaran, dokumen, pembayaran, operasional) berjalan terhubung | Tercapai |
-| Kualitas Pengujian | Pengujian fungsional dan end-to-end telah dilakukan pada alur utama | Tercapai |
-| Kesesuaian Kebutuhan | Implementasi konsisten dengan kebutuhan pada `Kebutuhan user` | Tercapai |
-| Kesiapan Operasional | Sistem dapat digunakan untuk mendukung layanan KPP di Biara Loresa SCJ | Tercapai |
-
-## Hasil Akhir
-
-Berdasarkan hasil pengembangan dan evaluasi berkelanjutan, sistem informasi yang dikembangkan telah mencapai kondisi shippable product. Artinya, sistem tidak hanya selesai secara teknis, tetapi juga layak digunakan untuk mendukung proses layanan KPP secara lebih efektif, terdokumentasi, dan terintegrasi dibandingkan proses manual sebelumnya.
+| Sprint | Keluaran increment | Cakupan layanan siap operasi |
+| --- | --- | --- |
+| Sprint 1 | Halaman layanan publik, formulir pendaftaran KPP dengan unggah dokumen persyaratan, pembayaran nirtunai berbasis QRIS, serta otentikasi peserta dengan dasbor ringkas dan pemisahan akses menurut peran. | Alur mulai dari informasi publik, pendaftaran, unggah dokumen, hingga konfirmasi pembayaran pendaftaran dapat dijalankan sebagai kesatuan fungsional pada lingkungan pengembangan penelitian. |
+| Sprint 2 | Layanan mandiri peserta meliputi unggah dokumen, jadwal materi, biaya, unduhan sertifikat, serta panel pengelola untuk daftar pendaftaran, verifikasi dokumen per berkas, dan penugasan periode kursus. | Alur interaksi peserta dan pengelola terhadap data pendaftaran dan dokumen dapat dioperasikan secara konsisten pada skenario utama maupun penanganan revisi unggahan. |
+| Sprint 3 | Pengelolaan periode dan materi, pencatatan kehadiran, biaya dan tagihan, serta pengelolaan berkas kelulusan dan akses unduh sertifikat beserta status kelulusan pada peserta. | Modul operasional kursus membentuk siklus layanan yang terintegrasi pada data periode, kehadiran, tagihan, dan kelulusan pada skenario yang disepakati. |
+| Sprint 4 | Pendaftaran akun pengelola pada kanal administrasi dengan verifikasi surel, pengelolaan daftar akun administrator oleh pengawas utama, serta fitur pesan pada dasbor pengguna. | Seluruh peran pada aplikasi dapat diuji dalam skenario administrasi dan komunikasi internal layanan sehingga produk penelitian membentuk kesatuan fungsional untuk serah terima sesuai ruang lingkup skripsi. |

@@ -1,0 +1,12 @@
+# Hasil Sprint Retrospective
+
+Dokumen ini menyajikan **hasil** pelaksanaan *Sprint Retrospective* yang diuraikan pada Bab III bagian Prosedur Penelitian. Kolom **Hasil refleksi proses** memuat ringkasan temuan terhadap cara kerja selama iterasi bersangkutan. Kolom **Hasil penyepakatan perbaikan** memuat ringkasan kesepakatan perbaikan proses yang akan diterapkan pada *Sprint* berikutnya. Dokumen ini memuat capaian **proses** retrospektif, bukan hasil fungsional fitur pada *Hasil Sprint Backlog*. Notulen rinci rapat dapat dilampirkan terpisah bila disyaratkan pembimbing. Kolom **Sprint** memuat nama iterasi. Rentang tanggal tiap *Sprint* mengacu pada dokumen *Sprint Planning*.
+
+## Tabel Hasil Sprint Retrospective
+
+| Sprint | Hasil refleksi proses | Hasil penyepakatan perbaikan |
+| --- | --- | --- |
+| Sprint 1 | Ritme pengerjaan halaman publik, formulir pendaftaran KPP, integrasi pembayaran nirtunai berbasis QRIS, serta otentikasi dan pemeriksaan peran telah dibahas. Praktik yang membantu kelancaran tugas diidentifikasi, hambatan proses pada validasi masukan dan koordinasi harian tercatat. | Disepakati penerapan penyesuaian urutan tugas harian, penegasan kriteria selesai, serta pola penanganan kesalahan masukan pada modul terkait pada Sprint 2. |
+| Sprint 2 | Koordinasi antara layanan peserta dan modul verifikasi pengelola telah dibahas, termasuk kesenjangan komunikasi status pendaftaran dan dokumen serta dampaknya terhadap pengujian setelah perubahan status. | Disepakati perbaikan komunikasi status dan dokumen antar modul, serta kebiasaan pengujian setelah tindakan pengelola pada Sprint 3. |
+| Sprint 3 | Kompleksitas pengelolaan periode, materi, kehadiran, biaya, dan sertifikat telah dibahas, termasuk risiko ketidakkonsistenan data pada transaksi tagihan dan integrasi antar modul operasional. | Disepakati penyempurnaan pembagian tugas antar subtahap, penguatan konsistensi transaksi tagihan, serta perluasan cakupan pengujian integrasi pada Sprint 4. |
+| Sprint 4 | Alur pendaftaran akun pengelola, pengelolaan akun administrator oleh pengawas utama, serta fitur pesan pada dasbor pengguna telah dibahas dari sisi keamanan akses dan kejelasan antarmuka. | Disepakati dokumentasi prosedur verifikasi akses dan peran, serta penyempurnaan penutupan rangkaian *Sprint* pada penelitian sebagai bahan serah terima proses ke penggunaan berkelanjutan sesuai ruang lingkup skripsi. |

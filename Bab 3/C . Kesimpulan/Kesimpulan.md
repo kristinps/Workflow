@@ -1,5 +1,0 @@
-# Kesimpulan
-
-Berdasarkan rangkaian kegiatan penelitian pada Bab 3, dapat disimpulkan bahwa pengembangan sistem informasi pendaftaran Kursus Persiapan Pernikahan (KPP) berbasis web di Biara Loresa SCJ telah dilaksanakan secara terstruktur menggunakan pendekatan Agile Scrum. Proses dimulai dari identifikasi kebutuhan pengguna melalui wawancara dan analisis dokumen pada `Kebutuhan user`, kemudian dilanjutkan dengan penyusunan backlog, pelaksanaan sprint, pengujian increment, serta evaluasi berkelanjutan hingga tahap akhir produk siap pakai.
-
-Hasil implementasi sistem informasi yang dikembangkan menunjukkan bahwa kebutuhan utama pengguna berhasil dipenuhi, terutama pada digitalisasi pendaftaran online, unggah dan verifikasi dokumen, serta pembayaran non-tunai melalui QRIS. Selain itu, sistem juga mendukung pengelolaan operasional kursus seperti periode, materi, kehadiran, biaya tambahan, sertifikat, dan dashboard sesuai peran pengguna. Dengan demikian, sistem yang dihasilkan tidak hanya menyelesaikan permasalahan proses manual, tetapi juga meningkatkan efektivitas, keteraturan data, dan kualitas layanan KPP secara keseluruhan.

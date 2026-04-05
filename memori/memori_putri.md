@@ -22,6 +22,29 @@ File ini dipakai sebagai **buku catatan** yang bisa kamu dan asisten edit. Serta
 
 <!-- Salin blok di bawah untuk entri baru; isi dari atas ke bawah = dari terbaru ke terlama -->
 
+#### Entri - 2026-04-05
+
+- **Waktu detail:** `2026-04-05` WIB (sesi ini — ingat memori `@memori`)
+- **Pertanyaan:**
+  - ingat memry kamu di folder ini @memori
+- **Tindakan:**
+  - Membaca ulang `memori/memori_putri.md`, `memori/panduan_putri.md`, dan `memori/putri_persona.md`.
+  - Menyegarkan konteks lintas sesi: skripsi Kristina Putri Saroan — perancangan & implementasi sistem pendaftaran KPP + pembayaran QRIS (Midtrans) di Biara Loresa SCJ SP3; sumber kebutuhan di `Kebutuhan user`; kesesuaian dengan `Program` (Laravel, Midtrans, peran user/admin/super_admin); requirement terstruktur di `Bab 3/B .  Prosedur Penelitian/1. Requirement/Requiremendt.md`; untuk tugas berikutnya sertakan `@memori/memori_putri.md` bila perlu konteks penuh.
+
+---
+
+#### Entri - 2026-04-03
+
+- **Waktu detail:** `2026-04-03` WIB (sesi ini — ingat memori `@memori` dan `@Kebutuhan user`)
+- **Pertanyaan:**
+  - ingat memory kamu di folder ini @memori @Kebutuhan user
+- **Tindakan:**
+  - Membaca ulang `memori/memori_putri.md`, `memori/panduan_putri.md`, dan `memori/putri_persona.md`.
+  - Memverifikasi folder `Kebutuhan user/`: `Judul.txt`, `wawancara.txt`, `BAB I PROPOSAL TUGAS AKHIR KRISTINA PUTRI SAROAN.txt`, `BAB II PROPOSAL TUGAS AKHIR KRISTINA PUTRI SAROAN.txt`.
+  - Menyegarkan ingatan lintas sesi: skripsi Kristina Putri Saroan — perancangan & implementasi sistem pendaftaran KPP + pembayaran QRIS (Midtrans) di Biara Loresa SCJ SP3; wawancara Pastor Markus (15 Feb 2026); Bab 1–3 dan lampiran selaras `Kebutuhan user` + `Program`; requirement terstruktur di `Bab 3/B .  Prosedur Penelitian/1. Requirement/Requiremendt.md`.
+
+---
+
 #### Entri - 2026-04-02
 
 - **Waktu detail:** `2026-04-02` WIB (sesi ini — ingat memori `@memori` dan `@Kebutuhan user`)

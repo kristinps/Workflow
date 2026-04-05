@@ -1,6 +1,6 @@
 # Rumusan Masalah
 
-Berdasarkan latar belakang yang telah diuraikan, permasalahan dalam penelitian ini dapat dirumuskan sebagai berikut:
+Berdasarkan latar belakang yang telah dijelaskan, penelitian ini merumuskan permasalahan berikut:
 
 1. Bagaimana kebutuhan pengguna terhadap sistem pendaftaran dan manajemen Kursus Persiapan Pernikahan (KPP) berbasis web di Biara Loresa SCJ?
 2. Bagaimana perancangan dan implementasi sistem pendaftaran serta manajemen KPP berbasis web yang sesuai dengan kebutuhan pengguna?
