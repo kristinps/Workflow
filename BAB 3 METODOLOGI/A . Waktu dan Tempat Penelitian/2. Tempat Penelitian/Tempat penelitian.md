@@ -1,0 +1,5 @@
+# Tempat Penelitian
+
+Penelitian ini dilaksanakan di **Biara Loresa SCJ**, lembaga yang menyelenggarakan layanan Kursus Persiapan Pernikahan (KPP) bagi calon mempelai. Lokasi penelitian berada di **Jln. Satrio Sari No.48, Karang Senang, Kec. Kuala Kencana, Kabupaten Mimika**, yang menjadi pusat operasional layanan sekaligus tempat observasi dan pengumpulan data penelitian.
+
+Pemilihan lokasi penelitian didasarkan pada relevansi permasalahan di lapangan dengan fokus penelitian, yaitu pendaftaran peserta, unggah dan verifikasi dokumen, pembayaran QRIS melalui Midtrans, pengelolaan periode, materi, kehadiran, biaya, dan sertifikat. Biara Loresa SCJ dipilih karena menyediakan konteks nyata bagi perancangan dan implementasi sistem informasi terintegrasi berbasis web, sejalan dengan rumusan kebutuhan yang diperoleh dari wawancara dan observasi awal serta tahapan pengembangan sistem yang tertuang dalam rencana penulisan skripsi ini.
