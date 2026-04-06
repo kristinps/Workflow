@@ -1,0 +1,14 @@
+# Pembahasan Sprint Review
+
+Pembahasan pada subbab ini menempatkan *Sprint Review* sebagai titik tinjauan *increment* setelah pengujian *black-box* pada pembahasan *Increment Development & Testing*, dengan demonstrasi fungsional dan penilaian terhadap kriteria yang telah ditetapkan pada Bab III. Cara menuju penyajian di bawah adalah dengan menyelaraskan setiap iterasi terhadap rencana pokok demonstrasi dan kriteria evaluasi pada metodologi, lalu merangkum secara ringkas **apa yang berhasil didemonstrasikan** serta **bagaimana penilaian sesi** membenarkan perilaku sistem—tanpa memasukkan notulen umpan balik atau daftar tindak lanjut ke dalam tabel ringkasan.
+
+Dengan demikian, pembaca dapat menelusuri dari rencana tinjauan di Bab III ke konfirmasi pasca-pelaksanaan per iterasi. Tabel berikut menyajikan sintesis tersebut untuk seluruh iterasi pengembangan.
+
+## Tabel ringkasan capaian Sprint Review
+
+| Sprint | Capaian demonstrasi | Capaian evaluasi |
+| --- | --- | --- |
+| Sprint 1 | Berhasil didemonstrasikan halaman layanan publik, formulir pendaftaran KPP, integrasi pembayaran nirtunai berbasis QRIS, serta otentikasi peserta, dasbor ringkas, dan status pendaftaran awal sesuai fokus demonstrasi. | Penilaian sesi menunjukkan bahwa alur utama dan penanganan pengecualian pada skenario yang disepakati menampilkan perilaku yang dapat diterima, konsistensi status pendaftaran dan pembayaran teruji, serta pembatasan akses menurut peran sesuai harapan. |
+| Sprint 2 | Berhasil didemonstrasikan modul unggah dokumen peserta, halaman jadwal materi, biaya, unduhan sertifikat pada sisi peserta, serta daftar pendaftaran dan verifikasi dokumen serta penugasan periode pada sisi pengelola sesuai fokus demonstrasi. | Penilaian sesi menunjukkan bahwa tampilan status dan dokumen pada peserta selaras dengan keputusan pengelola pada skenario verifikasi maupun penolakan, serta alur perbaikan unggahan dapat diikuti dengan lancar. |
+| Sprint 3 | Berhasil didemonstrasikan pengelolaan periode dan materi, pencatatan kehadiran, biaya dan tagihan, serta pengelolaan berkas kelulusan dan akses unduh sertifikat beserta status kelulusan pada peserta sesuai fokus demonstrasi. | Penilaian sesi menunjukkan bahwa integritas alur operasional kursus dan konsistensi data antar modul periode, kehadiran, tagihan, dan kelulusan pada skenario yang disepakati memperoleh persetujuan arah umum. |
+| Sprint 4 | Berhasil didemonstrasikan pendaftaran akun pengelola pada kanal administrasi beserta verifikasi surel serta pengelolaan daftar akun administrator oleh pengawas utama sesuai fokus demonstrasi. | Penilaian sesi menunjukkan bahwa alur verifikasi surel, aktivasi akses panel pengelola, kelengkapan operasi pengelolaan akun, serta pembatasan akses menurut peran memenuhi kriteria keamanan yang dibahas pada sesi. |

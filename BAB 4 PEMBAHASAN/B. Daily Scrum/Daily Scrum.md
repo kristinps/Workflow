@@ -1,0 +1,26 @@
+# Pembahasan Daily Scrum
+
+Pembahasan pada subbab ini menempatkan *Daily Scrum* sebagai pemantauan **proses** harian, bukan sebagai daftar fitur yang sudah jadi—bukti fungsional per butir tugas telah dirangkum pada pembahasan *Sprint Backlog*. Cara menuju penyajian di bawah adalah dengan menelusuri rumusan *Daily Scrum* pada Bab III untuk setiap kombinasi iterasi dan fokus pemantauan, lalu merumuskan ringkasan apa yang tercapai dalam pemantauan setelah seluruh iterasi berjalan: verifikasi kemajuan terhadap *Sprint Backlog*, penyelarasan rencana harian, pencatatan hambatan, serta pemeriksaan konsistensi alur dan data pada lingkungan pengembangan penelitian.
+
+Agar pembaca dapat membandingkan prosedur dengan capaian proses secara sejajar, susunan kolom pada tabel mengikuti struktur yang sama dengan tabel *Daily Scrum* pada metodologi; kolom terakhir memuat sintesis setelah iterasi. Tabel berikut menyajikan seluruh kombinasi tersebut untuk keseluruhan rangkaian pengembangan.
+
+## Tabel ringkasan capaian Daily Scrum
+
+| Kode SD | Pertanyaan | Capaian |
+| --- | --- | --- |
+| SD1-01 | Bagaimana memverifikasi kemajuan pekerjaan terhadap *Sprint Backlog*? | Halaman publik, formulir pendaftaran, alur pembayaran digital, otentikasi, dan dasbor peserta berjalan sesuai urutan pekerjaan yang direncanakan untuk tahap awal; pemeriksaan harian memastikan pelacakan tetap mengikuti daftar tugas terkini. |
+| SD1-02 | Bagaimana menyelaraskan rencana kerja harian dengan sisa tugas dan sasaran *Sprint*? | Penjadwalan harian disesuaikan dengan sisa pekerjaan dan sasaran tahap tersebut; prioritas kerja tetap selaras dengan rencana yang disepakati di awal periode. |
+| SD1-03 | Hambatan apa yang perlu dicatat dan ditindaklanjuti? | Hambatan pada validasi formulir, penyimpanan pendaftaran, konfirmasi pembayaran, pembaruan status lunas, maupun sesi pengguna terdokumentasi beserta langkah penanganan yang dilaksanakan pada lingkungan pengembangan penelitian. |
+| SD1-04 | Bagaimana memastikan konsistensi alur dan data pada lingkungan pengembangan? | Alur dari informasi publik tanpa masuk sistem hingga pembayaran pendaftaran berjalan konsisten; pemantauan tidak menemukan penyimpangan yang menghambat penutupan tahap kerja pertama. |
+| SD2-01 | Bagaimana memverifikasi kemajuan pekerjaan terhadap *Sprint Backlog*? | Unggah dokumen, tampilan jadwal materi, biaya, unduhan sertifikat pada sisi peserta, serta daftar pendaftaran dan tindakan verifikasi pada sisi pengelola maju sesuai rencana tahap kedua; pemeriksaan rutin memperkuat keselarasan pelaksanaan. |
+| SD2-02 | Bagaimana menyelaraskan rencana kerja harian dengan sisa tugas dan sasaran *Sprint*? | Penjadwalan harian mengakomodasi sisa pekerjaan tahap kedua tanpa benturan prioritas antara pekerjaan peserta dan pengelola. |
+| SD2-03 | Hambatan apa yang perlu dicatat dan ditindaklanjuti? | Hambatan pada penyimpanan berkas, perbaikan unggahan, status dokumen, penugasan periode, maupun selarasnya data antar tampilan terdokumentasi beserta penanganannya. |
+| SD2-04 | Bagaimana memastikan konsistensi alur dan data pada lingkungan pengembangan? | Status pendaftaran dan dokumen pada layanan mandiri peserta mencerminkan keputusan verifikasi pengelola; pada akhir pemantauan tahap kedua tidak tampak ketidakkonsistenan antara tampilan peserta dan keputusan di panel pengelola. |
+| SD3-01 | Bagaimana memverifikasi kemajuan pekerjaan terhadap *Sprint Backlog*? | Pengelolaan periode dan materi, pencatatan kehadiran, biaya dan tagihan, serta kelulusan dan sertifikat berkembang sesuai target tahap ketiga berdasarkan pemeriksaan harian. |
+| SD3-02 | Bagaimana menyelaraskan rencana kerja harian dengan sisa tugas dan sasaran *Sprint*? | Rencana harian mengikutkan sisa beban kerja operasional kursus sehingga tidak menumpuk menjelang akhir tahap ketiga. |
+| SD3-03 | Hambatan apa yang perlu dicatat dan ditindaklanjuti? | Hambatan pada operasi periode, rekapitulasi kehadiran, tagihan, unggah kelulusan, maupun unduhan sertifikat pada peserta terdokumentasi beserta penanganannya. |
+| SD3-04 | Bagaimana memastikan konsistensi alur dan data pada lingkungan pengembangan? | Data pada bagian periode, materi, kehadiran, biaya, dan kelulusan saling selaras ketika tahap ketiga ditutup. |
+| SD4-01 | Bagaimana memverifikasi kemajuan pekerjaan terhadap *Sprint Backlog*? | Alur pendaftaran akun pengelola, verifikasi surel, dan pengaturan akun oleh pengawas utama berjalan sesuai garis besar pekerjaan tahap terakhir; pemantauan harian memastikan pelacakan tetap terkendali. |
+| SD4-02 | Bagaimana menyelaraskan rencana kerja harian dengan sisa tugas dan sasaran *Sprint*? | Pekerjaan administrasi akun diselesaikan sebelum batas waktu tahap terakhir dengan penjadwalan yang mengikuti sisa tugas dan sasaran yang tersisa. |
+| SD4-03 | Hambatan apa yang perlu dicatat dan ditindaklanjuti? | Hambatan pada verifikasi surel, aktivasi panel pengelola, pembatasan peran, maupun konsistensi daftar akun terdokumentasi beserta penanganannya. |
+| SD4-04 | Bagaimana memastikan konsistensi alur dan data pada lingkungan pengembangan? | Pada penutupan tahap terakhir, pengaturan akses administrasi sesuai kebijakan keamanan yang direncanakan dalam perancangan sistem. |
